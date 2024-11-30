@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;	
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* テキスト情報 */
+.word {
+    width: 100%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* 地図セクション */
+.map-container {
+    width: 100%;
+    text-align: center;
+}
+iframe {
+    width: 80%; 
+    height: 400px; 
+    border: none; 
+}
+</style>
+<title>地図を表示</title>
+</head>
+
+<body>
+<div class="wrap">
+<header>
+    <div class="logo">
+        <img src="citmeat_rogo.png" alt="ロゴ"/> 
+    </div>
+    <nav>
+        <ul class="ddmenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="kodaimeaat_menu.html">メニュー</a></li>
+            <li><a href="kodaimeaat_shop.html">当店について</a></li>
+            <li><a href="kodaimeat_information.html">店舗情報</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="word">
+    <p>店名　牛工大</p>
+    <p>場所　〒000-0000 焼肉市美食町1-2-3</p>
+    <p>電話番号　000-456-7890</p>
+    <p>メール　info@yakiniku.umai.up</p>
+</div>
+
+<div class="map-container">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5144.008161400082!2d140.01785411205068!3d35.68875435335805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602280271c38ab81%3A0x9b26ed71e15bb456!2z5Y2D6JGJ5bel5qWt5aSn5a2mIOa0peeUsOayvOOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1732925197312!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+</div>
+</body>
+</html>
